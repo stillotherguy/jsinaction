@@ -1,1 +1,3 @@
 .idea
+*.pyc
+urllib_test.py
