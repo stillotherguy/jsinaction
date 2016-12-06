@@ -1,8 +1,18 @@
 __author__ = 'Mitsui'
 
-from unittest import TestCase
+print dir()
 
-class DirTest(TestCase):
+import unittest
 
-    def testDirWithoutArg(self):
-        print dir()
+print(dir(unittest))
+
+class Person(object):
+
+    def Person(self):
+        self.name = 'Mitsui'
+        self.age = 29
+
+    def info(self):
+        return self.name + ' ' + str(self.age)
+
+print(dir(Person()))
